@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-------------------------- Required meta tags ------------------------->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Pan, Dulces, Tortas, Comida, Galletas, Pizzas, Recetas">
+    <meta name="description" content="PANADERÍA. Panes, galletas, bizcochos y pizzas. Tienda On-line especializada en poducciòn y venta de alimentos dulces y salados. Recetas faciles para toda ocasiòn.">
+
+    <!---------------------------- Bootstrap CSS --------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+      <!---------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Stella Cocina</title>
+    <!------------------------- PROPIOS ESTILOS----------------------------------->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="shortcut icon" href="Logos/Medios de Pago/logo.png"> 
+ 
+</head>
+
+    <!---------------------------------Comienza el cuerpo-------------------------------------->
+
+<body>
+   
+  <main>
+
+    <header class="shadow-sm rounded">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+
+          <a class="navbar-brand" href="index.html">
+          <img class="imagenLogo img__aniImag" src="Logos\Logo PYME\Logo.png" alt="StellaCocina"></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="index.html">Inicio</a></li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Productos.html" class="nav-link active text-white">Productos</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a href="Productos.html#Panes" class="nav-link active text-white">Panes</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Dulces" class="nav-link active text-white">Dulces</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Salados" class="nav-link active text-white">Salados</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Tortas" class="nav-link active text-white">Tortas</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Masas" class="nav-link active text-white">Masas</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Bombones" class="nav-link active text-white">Bombones</a>
+                    </li>
+                  </ul>
+              </li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Recetas.html" class="nav-link active text-white">Recetas</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a href="Recetas.html#Rogel" class="nav-link active text-white">Rogel</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a href="Recetas.html#Pepas" class="nav-link active text-white">Pepas</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a href="Recetas.html#Pasta_Flora" class="nav-link active text-white">Pasta Flora</a></li>
+                  </ul>
+              </li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Envios.html" class="nav-link active text-white">Envios</a>
+              </li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Contacto.html" class="nav-link active text-white">Contacto</a>
+              </li>
+            </ul>
+
+                <!---------------------------------- Buscar con su Boton -------------------------------->
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success sear" type="submit">Buscar</button>
+                </form>
+
+                <hr class="dropdown-divider">
+
+                <!--------------------------------- Carrito de compras ---------------------------------->
+                
+                <img class="img__aniImag redesInstagram" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal20" src="Logos\Medios de Pago\carrito7.png" alt="StellaCocina">
+
+          </div>
+        </div>
+      </nav>      
+    </header>      
+
+    <!------------------------------------ Fin Header ------------------------------->
+
+
+        <!-------------------------- Breadcrumb ---------------------------->
+
+    <div class="body__border" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="div__ol">
+        <li class="breadcrumb-item"><a class="div__ol--ruta" href="index.html">Inicio</a></li>
+        <li class="div__ol--ruta breadcrumb-item active" aria-current="page">Recetas</li>
+      </ol>
+    </div>
+
+    <!------------------------------------ Inicio Cuerpo ---------------------------->
+	<main>
+
+		<h2>Recetas</h2>
+		<div class="container-fluid">
+			<div class="row">
+
+			    <div class="col-md-3 ms-auto modalFlex">
+			        <li id="Rogel"><img src="Imagenes\Recetas\Rogel.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+			        </li>
+			            
+			        <div>
+		                <!---------------------------- Boton Rogel modal ------------------------>
+		                <input type="button" name="boton" value="Rogel" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop10"/>
+		                  
+		                <!---------------------------------- Modal ----------------------------->
+		                <div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel10" aria-hidden="true">
+		                    <div class="modal-dialog modal-xl">
+		                      <div class="modal-content modalBackgroung">
+		                        <div class="modal-header">
+
+		                          <!---------------------- RECETA ROGEL -------------------->
+		                          <h2 class="modal-title" id="staticBackdropLabel10">Rogel</h2>
+		                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		                        </div>
+
+
+	                          		<img class="rogel img-thumbnail" src="Imagenes\Recetas\Rogel.jpg" alt="Rogel">
+
+									<!-------------------- Nueva Seccion de Recetas ---------------->
+
+									<nav class="margenNav">
+										<div class="nav nav-tabs" id="nav-tab" role="tablist">
+											<a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><h5>Ingredientes</h5></a>
+
+											<a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><h5>Preparación</h5></a>
+										</div>
+									</nav>
+
+									<div class="margenNav tab-content" id="nav-tabContent">
+										<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><h2>Ingredientes:</h2>
+
+											<ul class="margenIngredientes list-group">
+												<li class="margenIngredientes1 list-group-item text-start"><h5>Masa:</h5>
+													<input class="form-check-input me-1" type="checkbox" value="1">500gr Harina 0000.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">500cc Crema 500.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start"><h5>Relleno:</h5>
+													<input class="form-check-input me-1" type="checkbox" value="1">1kg Dulce de leche.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start"><h5>Cubierta:</h5>
+													<input class="form-check-input me-1" type="checkbox" value="1">4u Claras.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">240gr Azucar.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">80cc Agua.
+												</li>
+											</ul>
+										</div>
+
+										<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><h2>Preparación:</h2>
+
+											<div class="margenRogel shadow-lg p-3 mb-5 bg-white rounded overflow-auto">
+												<p class="text-start font-monospace">1-. Para la masa, en un bol, mezclar los dos ingredientes y amasar. Hacer un cilindro y cortar en 10 partes iguales.</p>
+
+												<p class="text-start font-monospace">2-. Estirar los discos del mismo diámetro y cocer al horno medio 10' en placa enmantecada, pinchar con tenedor. Cuidar que no se queme y dar vuelta si se quiere dorar de ambos lados.</p>
+
+												<p class="text-start font-monospace">3-. Armar las capas rellenando con dulce de leche.</p>
+
+												<p class="text-start font-monospace">4-. Merengue: Batir las claras, llevar a fuego el azúcar con el agua hasta punto bolita blanda, agregarlo en forma de hilo a las claras mientras sigue batiendo (bajar la velocidad de la batidora) luego seguir batiendo hasta que baje la temperatura del merengue una vez listo cubrir la torta.</p>
+											</div>
+										</div>
+									</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			    <div class="col-md-3 ms-auto modalFlex">
+			        <li id="Pepas"><img src="Imagenes\Recetas\Pepas1.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+			        </li>
+
+			        <div>
+		                <!---------------------------- Boton Pepas modal ------------------------>
+		                <input type="button" name="boton" value="Pepas" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop11"/>
+		                  
+		                <!---------------------------------- Modal ----------------------------->
+		                <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel11" aria-hidden="true">
+		                    <div class="modal-dialog modal-xl">
+		                      <div class="modal-content modalBackgroung">
+		                        <div class="modal-header">
+
+		                          <!--------------------------- RECETA PEPAS --------------------------->
+		                          <h2 class="modal-title" id="staticBackdropLabel11">Pepas</h2>
+		                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		                        </div>
+
+		                        	<img class="rogel img-thumbnail" src="Imagenes\Recetas\Pepas1.jpg" alt="Pepas">
+
+									<!----------------------- INGREDIENTES ----------------------------->
+
+									<nav class="margenNav">
+										<div class="nav nav-tabs" id="nav-tab1" role="tablist">
+											<a class="nav-link active" id="nav-home1-tab" data-bs-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home1" aria-selected="true"><h5>Ingredientes</h5></a>
+
+											<a class="nav-link" id="nav-profile1-tab" data-bs-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile1" aria-selected="false"><h5>Preparación</h5></a>
+										</div>
+									</nav>
+
+									<div class="margenNav tab-content" id="nav-tabContent">
+										<div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home1-tab"><h2>Ingredientes:</h2>
+
+											<ul class="margenIngredientes list-group">
+												<li class="margenIngredientes1 list-group-item text-start"><h5>Masa:</h5>
+													<input class="form-check-input me-1 text-start" type="checkbox" value="1">150gr Manteca.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">70gr Azucar impalpable.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">2 Yemas de huevo.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1cda Extracto de vainilla.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">Ralladura de un limón.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">280gr Harina leudante.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1/2 cucharada polvo de hornear.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start"><h5>Relleno:</h5>
+													<input class="form-check-input me-1" type="checkbox" value="1">500gr Dulce de membrillo
+												</li>
+											</ul>
+										</div>
+
+										<div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile1-tab"><h2>Preparación:</h2>
+
+											<div class="margenPepa shadow-lg p-3 mb-5 bg-white rounded overflow-auto">
+												<p class="text-start font-monospace">1-. En un bol combinar la manteca junto con el azúcar impalpable. Cremar.</p>
+
+												<p class="text-start font-monospace">2-. Perfumar con extracto de vainilla y ralladura de limón.</p>
+
+												<p class="text-start font-monospace">3-. Incorporar las yemas una a la vez.</p>
+
+												<p class="text-start font-monospace">4-. Tamizar la harina con el polvo de hornear. Integrar en dos veces.</p>
+
+												<p class="text-start font-monospace">5-. Volcar la masa en papel film. Envolver y enfriar 1 hora en heladera.</p>
+
+												<p class="text-start font-monospace">6-. Formar esferas de 13 gr a 15 gr.</p>
+
+												<p class="text-start font-monospace">7-. Colocar en una placa con papel manteca o lámina antiadherente. Hundir con el pulgar.</p>
+
+												<h5>Preparacion del Relleno:</h5>
+												<p class="text-start font-monospace">1-. Cortar en cubos el membrillo. Añadir un chorrito de agua y llevar 1' a microondas.</p>
+
+												<p class="text-start font-monospace">2-. Pisar con tenedor. Hasta que se encuentra maleable.</p>
+
+												<p class="text-start font-monospace">3-. Rellenar las pepas con cuchara o manga descartable. Llevar 10' a heladera.</p>
+
+												<p class="text-start font-monospace">4-. Hornear 8' a 10' a 175°C o hasta que su base este levemente dorada. Retirar y enfriar.</p>
+											</div>
+										</div>
+									</div>
+		                       </div>
+		                    </div>
+		            	</div>
+			    	</div> 
+			    </div>
+
+			    <div class="col-md-3 ms-auto modalFlex">
+			        <li id="PastaFlora"><img src="Imagenes\Recetas\PastaFlora1.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+			        </li>
+
+			        <div>
+		                <!---------------------------- Boton Pasta Flora modal ------------------------>
+		                <input type="button" name="boton" value="Pasta Flora" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop12"/>
+		                  
+		                <!---------------------------------- Modal ----------------------------->
+		                <div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel12" aria-hidden="true">
+		                    <div class="modal-dialog modal-xl">
+		                      <div class="modal-content modalBackgroung">
+		                        <div class="modal-header">
+
+		                          <!------------------------- RECETA PASTA FLORA ------------------------>
+		                          <h2 class="modal-title" id="staticBackdropLabel12">Pasta Flora</h2>
+		                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		                        </div>
+
+		                        <img class="rogel img-thumbnail" src="Imagenes\Recetas\PastaFlora1.jpg" alt="Pasta_Flora">
+
+								<!------------------------- INGREDIENTES --------------------------->
+
+								<nav class="margenNav">
+									<div class="nav nav-tabs" id="nav-tab2" role="tablist">
+										<a class="nav-link active" id="nav-home2-tab" data-bs-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-home2" aria-selected="true"><h5>Ingredientes</h5></a>
+
+										<a class="nav-link" id="nav-profile2-tab" data-bs-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-profile2" aria-selected="false"><h5>Preparación</h5></a>
+									</div>
+								</nav>
+
+									<div class="margenNav tab-content" id="nav-tabContent">
+										<div class="tab-pane fade show active" id="nav-home2" role="tabpanel" aria-labelledby="nav-home2-tab"><h2>Ingredientes:</h2>
+
+											<ul class="margenIngredientes list-group">
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1 text-start" type="checkbox" value="1">100gr de manteca.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">150gr de azúcar.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">250gr de harina 0000.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1 cucharada de polvo para hornear.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1/2 cucharada de bicarbonato de sodio.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1 Huevo.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1 Yema.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">Esencia de vainilla.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">500gr de dulce de membrillo.
+												</li>
+
+												<li class="margenIngredientes1 list-group-item text-start">
+													<input class="form-check-input me-1" type="checkbox" value="1">1/4 taza de agua.
+												</li>
+
+
+											</ul>
+										</div>
+
+										<div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile2-tab"><h2>Preparación:</h2>
+
+											<div class="margenRogel shadow-lg p-3 mb-5 bg-white rounded overflow-auto">
+												<p class="text-start font-monospace">1-. Precalentar el horno a moderado. Enmantecar y enharinar una tartera desmontable.</p>
+
+												<p class="text-start font-monospace">2-. En la procesadora, poner el azúcar, la harina, el polvo para hornear, y el bicarbonato. Incorporar la manteca en cubos y pulsar nuevamente hasta formar un arenado.</p>
+
+												<p class="text-start font-monospace">3-. Incorporar el huevo, la yema y la esencia de vainilla.</p>
+
+												<p class="text-start font-monospace">4-. Tomar el bollo que se formó y envolverlo en un film. Llevar a la heladera 30 minutos.</p>
+
+												<p class="text-start font-monospace">5-. En una cacerola al fuego, colocar el dulce de membrillo en cubitos y el agua. Revolver con un tenedor y pisar para formar un relleno cremoso.</p>
+
+												<p class="text-start font-monospace">6-. Retirar la masa de la heladera y reservar 1/4 de la masa para las tiritas. Con el resto de masa forrar la base y lados de la tartera. Rellenar con el dulce de membrillo. Estirar el resto de masa sobre la mesada y cortar tiras.</p>
+
+												<p class="text-start font-monospace">7-. Colocar sobre la pastaflora formando un enrejado.</p>
+
+												<p class="text-start font-monospace">8-. Llevar al horno y cocinar 30 minutos. Dejar enfriar y desmoldar.</p>
+
+											</div>
+										</div>
+									</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <!----------------------------------- Pie de Pagina ---------------------------------->
+
+    <footer class="body__border">
+
+          <div class="iconoWhatsapp">
+            <a href="https://api.whatsapp.com/send?phone=+5491141681891">
+            <img class="imagenWhatsapp img__aniImag" src="Logos\Logos redes sociales\Whatsapp1.png"></a>
+          </div>
+
+
+          <div class="nuevoPie list-group" id="myList" role="tablist">
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#menu" role="tab"><h5>Menù</h5></a>
+
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#pagos" role="tab"><h5>Medios de Pago</h5></a>
+
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#contacto" role="tab"><h5>Contactos</h5></a>
+
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#informacion" role="tab"><h5>Informacion Legal</h5></a>
+          </div>
+
+              <div class="tab-content">
+
+                <!----------------------------- Menu ----------------------------------------->
+
+                <div class="tab-pane active" id="menu" role="tabpanel">
+                    <ul class="pieMenu list-group">
+                      <li><a class="pieLetras" href="index.html"><h3>Inicio</a></h3></li>
+
+                      <li><a class="pieLetras" href="Productos.html"><h3>Productos</a></h3></li>
+
+                      <li><a class="pieLetras" href="Recetas.html"><h3>Recetas</a></h3></li>
+
+                      <li><a class="pieLetras" href="Envios.html"><h3>Envios</a></h3></li>
+
+                      <li><a class="pieLetras" href="Contacto.html"><h3>Contacto</a></h3></li>
+                    </ul>
+                </div>
+
+                <!------------------------------- Medios de Pago ----------------------------------->
+
+                <div class="tab-pane" id="pagos" role="tabpanel">
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\Visa.png" alt="visa" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Mastercard.png" alt="mastercard" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Amex.png" alt="americanexpress" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Diners.png" alt="diners" class="mediosPago"/>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\Paypal.png" alt="paypal" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Banelco.png" alt="banelco" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Cabal.png" alt="cabal" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Naranja.png" alt="naranja" class="mediosPago"/>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\TarjetaShopping.png" alt="tarjetashopping" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\MercadoPago.png" alt="mercadopago" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Argencard.png" alt="argencard" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Nativa.png" alt="nativa" class="mediosPago"/>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\Cencosud.png" alt="cencosud" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\PagoFacil.png" alt="pagofacil" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\RapiPago.png" alt="rapipago" class="mediosPago"/>
+                      </li>
+                    </ul>
+                </div>
+
+                <!--------------------------------- Contacto ----------------------------------->
+
+                <div class="tab-pane" id="contacto" role="tabpanel">
+                    <ul class="list-group">
+                      <li class="margenContacto">
+                          <a href="https://accounts.google.com/" class="pieLetras">
+                            <img src="Logos\Logos redes sociales\correo.png" alt="correo" class="redesInstagram"/>   stellacocina@gmail</a>
+                      </li>
+
+                      <li class="margenContacto">
+                        <a href="+5491141681891" class="pieLetras">
+                          <img src="Logos\Logos redes sociales\Whatsapp.png" alt="whatsapp" class="redesInstagram"/>   +5491141681891</a>
+                      </li>
+
+                      <li class="margenContacto">
+                        <a href="https://instagram.com/estelacocina.ve?igshid=2zspqbnyfhmv" class="pieLetras">
+                          <img src="Logos\Logos redes sociales\Instagram.png" alt="instagram" class="redesInstagram"/>   @estelacocina.ve</a>
+                      </li>
+                    </ul>
+                </div>
+
+                <!---------------------------------- Informacion Legal ------------------------->
+
+                <div class="tab-pane" id="informacion" role="tabpanel">
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Logos redes sociales\legal.png" alt="informacionlegal" class="redesInstagram"/>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+              <hr>
+
+          <!-------------------------------- DERECHOS DE RESERVA ------------------------------->
+
+          <p class="piePagina">Copyright Stella Cocina - 2020. Todos los derechos reservados.</p>
+
+    </footer>
+
+    <!-------------------------------- Fin Pie de Pagina --------------------------------->
+
+  </main>
+
+    <script>
+            var firstTabEl = document.querySelector('#myTab a:last-child')
+            var firstTab = new bootstrap.Tab(firstTabEl)
+
+            firstTab.show()
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-------------------------Bootstrap Bundle with Popper ----------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-------------------------- Required meta tags ------------------------->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Pan, Dulces, Tortas, Comida, Galletas, Pizzas, Recetas">
+    <meta name="description" content="PANADERÍA. Panes, galletas, bizcochos y pizzas. Tienda On-line especializada en poducciòn y venta de alimentos dulces y salados. Recetas faciles para toda ocasiòn.">
+
+    <!---------------------------- Bootstrap CSS --------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+      <!---------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Stella Cocina</title>
+    <!------------------------- PROPIOS ESTILOS----------------------------------->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="shortcut icon" href="Logos/Medios de Pago/logo.png"> 
+ 
+</head>
+
+    <!---------------------------------Comienza el cuerpo-------------------------------------->
+
+<body>
+   
+  <main>
+
+    <header class="shadow-sm rounded">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+
+          <a class="navbar-brand" href="index.html">
+          <img class="imagenLogo img__aniImag" src="Logos\Logo PYME\Logo.png" alt="StellaCocina"></a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="index.html">Inicio</a></li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Productos.html" class="nav-link active text-white">Productos</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a href="Productos.html#Panes" class="nav-link active text-white">Panes</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Dulces" class="nav-link active text-white">Dulces</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Salados" class="nav-link active text-white">Salados</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Tortas" class="nav-link active text-white">Tortas</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Masas" class="nav-link active text-white">Masas</a>
+                    </li>
+
+                    <hr class="dropdown-divider">
+
+                    <li>
+                      <a href="Productos.html#Bombones" class="nav-link active text-white">Bombones</a>
+                    </li>
+                  </ul>
+              </li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Recetas.html" class="nav-link active text-white">Recetas</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a href="Recetas.html#Rogel" class="nav-link active text-white">Rogel</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a href="Recetas.html#Pepas" class="nav-link active text-white">Pepas</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a href="Recetas.html#Pasta_Flora" class="nav-link active text-white">Pasta Flora</a></li>
+                  </ul>
+              </li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Envios.html" class="nav-link active text-white">Envios</a>
+              </li>
+
+              <hr class="dropdown-divider">
+
+              <li>
+                <a href="Contacto.html" class="nav-link active text-white">Contacto</a>
+              </li>
+            </ul>
+
+                <!---------------------------------- Buscar con su Boton -------------------------------->
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success sear" type="submit">Buscar</button>
+                </form>
+
+                <hr class="dropdown-divider">
+
+                <!--------------------------------- Carrito de compras ---------------------------------->
+                
+                <img class="img__aniImag redesInstagram" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal20" src="Logos\Medios de Pago\carrito7.png" alt="StellaCocina">
+
+          </div>
+        </div>
+      </nav>      
+    </header>      
+
+    <!------------------------------------ Fin Header ------------------------------->
+
+
+    <!------------------------------------ Breadcrumb ------------------------------->
+
+    <div class="body__border" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="div__ol">
+        <li class="breadcrumb-item"><a class="div__ol--ruta" href="index.html">Inicio</a></li>
+        <li class="div__ol--ruta breadcrumb-item active" aria-current="page">Productos</li>
+      </ol>
+    </div>
+    
+    <!----------------------------- Variedad de productos ------------------------------->
+
+    <h2>Productos</h2>
+    <div class="container-fluid">
+      <div class="row">
+
+        <!----------------------------- Seccion de Panes --------------------------------->
+        <div class="col-md-3 ms-auto modalFlex">
+
+          <li id="Panes"><img src="Imagenes\Panes\Baguette.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+          </li>
+
+          <div>
+          <!---------------------------- Boton Panes modal ------------------------>
+            <input type="button" name="boton" value="Panes" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop"/>
+                  
+            <!---------------------------------- Modal ----------------------------->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBackgroung">
+                  <div class="modal-header">
+
+                    <!---------------------- VARIEDAD DE PANES -------------------->
+                    <h2 class="modal-title" id="staticBackdropLabel">Panes</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">
+
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Baguette"><img src="Imagenes/Panes/Baguette.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Baguette">
+                              <input type="button" name="boton" value="Baguette" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Cremona"><img src="Imagenes/Panes/Cremona.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Cremona">
+                              <input type="button" name="boton" value="Cremona" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Flauta"><img src="Imagenes/Panes/Flauta.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Flauta">
+                              <input type="button" name="boton" value="Flauta" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Fugacita"><img src="Imagenes/Panes/Fugacita.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Fugacita">
+                              <input type="button" name="boton" value="Fugacita" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Pan_de_Campo"><img src="Imagenes/Panes/Pan de Campo.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Pan_de_Campo">
+                              <input type="button" name="boton" value="Pan de Campo" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Arabe"><img src="Imagenes/Panes/Arabe.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Arabe">
+                              <input type="button" name="boton" value="Arabe" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>              
+        <!---------------------------- FIN VARIEDAD DE PANES ------------------------------>
+
+
+        <!----------------------------- Seccion de Dulces --------------------------------->
+        <div class="col-md-3 ms-auto modalFlex">
+
+          <li id="Dulces"><img src="Imagenes\Dulces\Pepas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+          </li>
+
+          <div>
+            <!---------------------------- Boton Dulces modal ------------------------>
+            <input type="button" name="boton" value="Dulces" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"/>
+
+            <!---------------------------------- Modal ----------------------------->
+            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop1Label" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBackgroung">
+
+                  <div class="modal-header">
+
+                    <!---------------------- VARIEDAD DE DULCES -------------------->
+                    <h2 class="modal-title" id="staticBackdrop1Label">Dulces</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">                                    
+      
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Budin"><img src="Imagenes/Dulces/Budin.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Budin">
+                              <input type="button" name="boton" value="Budin" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Cookies"><img src="Imagenes/Dulces/Cookies.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Cookies">
+                              <input type="button" name="boton" value="Cookies" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Medialunas"><img src="Imagenes/Dulces/Medialunas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Medialunas">
+                              <input type="button" name="boton" value="Medialunas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Merengues"><img src="Imagenes/Dulces/Merengues.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Merengues">
+                              <input type="button" name="boton" value="Merengues" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Muffins"><img src="Imagenes/Dulces/Muffins.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Muffins">
+                              <input type="button" name="boton" value="Muffins" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Pepas"><img src="Imagenes/Dulces/Pepas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Pepas">
+                              <input type="button" name="boton" value="Pepas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!---------------------------- FIN VARIEDAD DE DULCES ------------------------------>
+
+        <!----------------------------- Seccion de Salados --------------------------------->
+        <div class="col-md-3 ms-auto modalFlex">
+
+          <li id="Salados"><img src="Imagenes\Salados\Pizzas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+          </li>
+
+          <div>
+                  
+            <!---------------------------- Boton Salados modal ---------------------->
+            <input type="button" name="boton" value="Salados" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"/>
+
+            <!---------------------------------- Modal ----------------------------->
+            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop2Label" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBackgroung">
+
+                  <div class="modal-header">
+
+                    <!---------------------- VARIEDAD DE SALADOS -------------------->
+                    <h2 class="modal-title" id="staticBackdrop2Label">Salados</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">                                   
+                      <div class="row">
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Bizcochitos"><img src="Imagenes/Salados/Bizcochitos.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Bizcochitos">
+                              <input type="button" name="boton" value="Bizcochitos" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Chipa"><img src="Imagenes/Salados/Chipa.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Chipa">
+                              <input type="button" name="boton" value="Chipa" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Marineras"><img src="Imagenes/Salados/Marineras.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Marineras">
+                              <input type="button" name="boton" value="Marineras" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Marineritas"><img src="Imagenes/Salados/Marineritas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Marineritas">
+                              <input type="button" name="boton" value="Marineritas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Pizzas"><img src="Imagenes/Salados/Pizzas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Pizzas">
+                              <input type="button" name="boton" value="Pizzas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Tostaditas"><img src="Imagenes/Salados/Tostaditas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Tostaditas">
+                              <input type="button" name="boton" value="Tostaditas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!---------------------------- FIN VARIEDAD DE SALADOS ------------------------------>
+
+      <div class="row">
+
+        <!----------------------------- Seccion de Tortas --------------------------------->
+        <div class="col-md-3 ms-auto modalFlex">
+
+          <li id="Tortas"><img src="Imagenes/Tortas\rogel.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+          </li>
+
+          <div>
+            <!---------------------------- Boton Tortas modal ------------------------>
+            <input type="button" name="boton" value="Tortas" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"/>
+
+            <!---------------------------------- Modal ----------------------------->
+            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop3Label" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBackgroung">
+
+                  <div class="modal-header">
+
+                    <!---------------------- VARIEDAD DE TORTAS -------------------->
+                    <h2 class="modal-title" id="staticBackdrop3Label">Tortas</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">                                   
+                      <div class="row">
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Selva_Negra"><img src="Imagenes/Tortas/Selva Negra.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Selva_Negra">
+                              <input type="button" name="boton" value="Selva Negra" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Cheesecake"><img src="Imagenes/Tortas/Cheesecake.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Cheesecake">
+                              <input type="button" name="boton" value="Cheesecake" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Lemon_Pie"><img src="Imagenes/Tortas/Lemon Pie.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Lemon_Pie">
+                              <input type="button" name="boton" value="Lemon Pie" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+                            
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Brownie"><img src="Imagenes/Tortas/Brownie.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Brownie">
+                              <input type="button" name="boton" value="Brownie" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Pirineo"><img src="Imagenes/Tortas/Pirineo.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Pirineo">
+                              <input type="button" name="boton" value="Pirineo" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Marquisse_de_Chocolate"><img src="Imagenes/Tortas/Marquisse de Chocolate.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Marquisse_de_Chocolate">
+                              <input type="button" name="boton" value="Marquisse de Chocolate" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!---------------------------- FIN VARIEDAD DE TORTAS ------------------------------>
+
+        <!----------------------------- Seccion de Masas --------------------------------->
+        <div class="col-md-3 ms-auto modalFlex">
+
+          <li id="Masas"><img src="Imagenes/Masas\Masas Finas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+          </li>
+
+          <div>
+            <!---------------------------- Boton Masas modal ------------------------>
+            <input type="button" name="boton" value="Masas" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop4"/>
+
+            <!---------------------------------- Modal ----------------------------->
+            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop4Label" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBackgroung">
+
+                  <div class="modal-header">
+                          
+                    <!---------------------- VARIEDAD DE MASAS -------------------->
+                    <h2 class="modal-title" id="staticBackdrop4Label">Masas</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">                                   
+                           
+                      <div class="row">
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Masas_Finas"><img src="Imagenes/Masas/Masas Finas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Masas_Finas">
+                              <input type="button" name="boton" value="Masas Finas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Masas_Secas"><img src="Imagenes/Masas/Masas Secas.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Masas_Secas">
+                              <input type="button" name="boton" value="Masas Secas" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>                          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!---------------------------- FIN VARIEDAD DE MASAS ------------------------------>
+
+        <!----------------------------- Seccion de Bombones --------------------------------->
+        <div class="col-md-3 ms-auto modalFlex">
+
+          <li id="Bombones"><img src="Imagenes/Bombones\Baul Grande.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+          </li>
+
+          <div>
+            <!---------------------------- Boton Bombones modal ------------------------>
+            <input type="button" name="boton" value="Bombones" class="body__centrarBotones" data-bs-toggle="modal" data-bs-target="#staticBackdrop5"/>
+
+            <!---------------------------------- Modal ----------------------------->
+            <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop5Label" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content modalBackgroung">
+
+                  <div class="modal-header">
+                          
+                    <!---------------------- VARIEDAD DE BOMBONES ------------------->
+                    <h2 class="modal-title" id="staticBackdrop5Label">Bombones</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">                                   
+                      <div class="row">
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Baul_Grande"><img src="Imagenes/Bombones/Baul Grande.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Baul_Grande">
+                              <input type="button" name="boton" value="Baul Grande" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+
+                        <div class="col-md-3 ms-auto modalFlex">
+                          <li id="Cajon_Grande"><img src="Imagenes/Bombones/Cajon Grande.jpg" class="inicioRecomendados img-thumbnail img__aniImag"/>
+                          </li>
+                          <li>
+                            <a href="Productos.hmtl#Cajon_Grande">
+                              <input type="button" name="boton" value="Cajon Grande" class="body__centrarBotones"/>
+                            </a>
+                          </li>
+                        </div>
+                      </div>                          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!---------------------------- FIN VARIEDAD DE BOMBONES ------------------------------>
+          
+    <!----------------------------------- Fin Productos ---------------------------------->
+
+    <!----------------------------------- Pie de Pagina ---------------------------------->
+
+    <footer class="body__border">
+
+          <div class="iconoWhatsapp">
+            <a href="https://api.whatsapp.com/send?phone=+5491141681891">
+            <img class="imagenWhatsapp img__aniImag" src="Logos\Logos redes sociales\Whatsapp1.png"></a>
+          </div>
+
+
+          <div class="nuevoPie list-group" id="myList" role="tablist">
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#menu" role="tab"><h5>Menù</h5></a>
+
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#pagos" role="tab"><h5>Medios de Pago</h5></a>
+
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#contacto" role="tab"><h5>Contactos</h5></a>
+
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#informacion" role="tab"><h5>Informacion Legal</h5></a>
+          </div>
+
+              <div class="tab-content">
+
+                <!----------------------------- Menu ----------------------------------------->
+
+                <div class="tab-pane active" id="menu" role="tabpanel">
+                    <ul class="pieMenu list-group">
+                      <li><a class="pieLetras" href="index.html"><h3>Inicio</a></h3></li>
+
+                      <li><a class="pieLetras" href="Productos.html"><h3>Productos</a></h3></li>
+
+                      <li><a class="pieLetras" href="Recetas.html"><h3>Recetas</a></h3></li>
+
+                      <li><a class="pieLetras" href="Envios.html"><h3>Envios</a></h3></li>
+
+                      <li><a class="pieLetras" href="Contacto.html"><h3>Contacto</a></h3></li>
+                    </ul>
+                </div>
+
+                <!------------------------------- Medios de Pago ----------------------------------->
+
+                <div class="tab-pane" id="pagos" role="tabpanel">
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\Visa.png" alt="visa" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Mastercard.png" alt="mastercard" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Amex.png" alt="americanexpress" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Diners.png" alt="diners" class="mediosPago"/>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\Paypal.png" alt="paypal" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Banelco.png" alt="banelco" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Cabal.png" alt="cabal" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Naranja.png" alt="naranja" class="mediosPago"/>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\TarjetaShopping.png" alt="tarjetashopping" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\MercadoPago.png" alt="mercadopago" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Argencard.png" alt="argencard" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\Nativa.png" alt="nativa" class="mediosPago"/>
+                      </li>
+                    </ul>
+
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Medios de Pago\Cencosud.png" alt="cencosud" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\PagoFacil.png" alt="pagofacil" class="mediosPago"/>
+                        <img src="Logos\Medios de Pago\RapiPago.png" alt="rapipago" class="mediosPago"/>
+                      </li>
+                    </ul>
+                </div>
+
+                <!--------------------------------- Contacto ----------------------------------->
+
+                <div class="tab-pane" id="contacto" role="tabpanel">
+                    <ul class="list-group">
+                      <li class="margenContacto">
+                          <a href="https://accounts.google.com/" class="pieLetras">
+                            <img src="Logos\Logos redes sociales\correo.png" alt="correo" class="redesInstagram"/>   stellacocina@gmail</a>
+                      </li>
+
+                      <li class="margenContacto">
+                        <a href="+5491141681891" class="pieLetras">
+                          <img src="Logos\Logos redes sociales\Whatsapp.png" alt="whatsapp" class="redesInstagram"/>   +5491141681891</a>
+                      </li>
+
+                      <li class="margenContacto">
+                        <a href="https://instagram.com/estelacocina.ve?igshid=2zspqbnyfhmv" class="pieLetras">
+                          <img src="Logos\Logos redes sociales\Instagram.png" alt="instagram" class="redesInstagram"/>   @estelacocina.ve</a>
+                      </li>
+                    </ul>
+                </div>
+
+                <!---------------------------------- Informacion Legal ------------------------->
+
+                <div class="tab-pane" id="informacion" role="tabpanel">
+                    <ul class="list-group">
+                      <li>
+                        <img src="Logos\Logos redes sociales\legal.png" alt="informacionlegal" class="redesInstagram"/>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+              <hr>
+
+          <!-------------------------------- DERECHOS DE RESERVA ------------------------------->
+
+          <p class="piePagina">Copyright Stella Cocina - 2020. Todos los derechos reservados.</p>
+
+    </footer>
+
+    <!-------------------------------- Fin Pie de Pagina --------------------------------->
+
+  </main>
+
+    <script>
+            var firstTabEl = document.querySelector('#myTab a:last-child')
+            var firstTab = new bootstrap.Tab(firstTabEl)
+
+            firstTab.show()
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-------------------------Bootstrap Bundle with Popper ----------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+</html>

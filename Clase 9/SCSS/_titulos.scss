@@ -1,0 +1,52 @@
+
+$color-rosa: #FF9191;
+$font-botones-titulos: 'Handlee', cursive;
+$negrita: bold;
+$decoracion-texto: none;
+$texto-centrado: center;
+
+@mixin titulos {
+
+	color: $color-rosa;
+	font-family: $font-botones-titulos;
+	font-weight: $negrita;
+}
+
+
+
+h2 {
+
+	@include titulos;
+	text-align: $texto-centrado;
+	margin: 10px;
+}
+
+
+h5 {
+
+	@include titulos;
+	text-align: $texto-centrado;
+	text-decoration: $decoracion-texto;
+}
+
+
+h6 {
+
+	@include titulos;
+	text-decoration: $decoracion-texto;
+}
+
+
+.div__ol--ruta {
+
+	@include titulos;
+	text-decoration: $decoracion-texto;
+	font-size: 20px;
+}
+
+
+.iconosContacto {
+
+	@include titulos;
+	text-decoration: $decoracion-texto;
+}
