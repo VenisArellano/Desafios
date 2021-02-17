@@ -1,0 +1,112 @@
+       // Footer //
+$color-gradiente: #F7F0F0;
+$gradiente: linear-gradient(to bottom, $color-gradiente, $color-rosa);
+$color-rosa: #FF9191;
+$font-botones-titulos: 'Handlee', cursive;
+
+
+      // Iconos medios de pago //
+$ancho-icono: 40px;
+$alto-icono: 30px;
+
+
+      // Icono Instagram //
+$ancho-inst: 50px;
+$alto-inst: 50px;
+
+
+      // Icono Facebook //
+$ancho-face: 100px;
+$alto-face: 50px;
+
+
+footer {
+
+	background-image: $gradiente;	
+}
+
+
+.pieMenu {
+
+	color: $color-rosa;
+	text-decoration: none;
+	font-family: $font-botones-titulos;
+	text-align: center;
+	font-weight: bold;
+	margin: 20px auto;
+}
+
+
+.nuevoPie {
+
+	margin: 5px auto;
+	width: 60%;
+}
+
+
+.piePagina {
+
+	color: $color-blanco;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.mediosPago {
+
+	width: $ancho-icono;
+	height: $alto-icono;
+}
+
+
+.redesFacebook {
+
+	width: $ancho-face;
+	height: $alto-face;
+}
+
+
+.redesInstagram {
+
+	width: $ancho-inst;
+	height: $alto-inst;
+}
+
+
+.pieLetras {
+
+	color: $color-blanco;
+	text-decoration: none;
+	font-family: $font-botones-titulos;
+}
+
+
+.margenContacto {
+
+	margin: 10px;
+}
+
+
+.paddingRedes {
+
+	padding: 0px 0px 20px 0px;
+}
+
+
+.iconoWhatsapp {
+
+	position: fixed;
+	right: 10px; 
+	bottom: 10px;
+	text-align: center;
+	padding: 3px;
+	z-index: 2;
+}
+
+
+.imagenWhatsapp {
+
+	width: 50px; 
+	height: 50px;
+}
+
