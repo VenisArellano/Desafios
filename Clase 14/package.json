@@ -1,0 +1,18 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "VenisArellano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+"build-css": "node-sass --include-path scss scss/archivo.scss CSS/Estilos.css",
+ "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "keywords": [
+    "Stella",
+    "Cocina"
+  ],
+  "author": "Venis Arellano",
+  "license": "ISC"
+}
