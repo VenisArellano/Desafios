@@ -1,0 +1,53 @@
+      // Header //
+$color-rosa: #FF9191;
+$color-blanco: #FFFFFF;
+$ancho-logo: 50px;
+$altura-logo: 50px;
+
+
+
+
+header{
+
+	position: sticky;
+	top: 0;
+	z-index: 3;
+	background-color: $color-rosa;
+}
+
+
+.imagenLogo {
+
+	width: $ancho-logo;
+	height: $altura-logo;
+}
+
+
+ul {
+
+	list-style: none;
+	font-size: 0;		
+}
+
+
+li {
+
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	font-size: 22px;
+}
+
+
+nav {
+
+	li {
+
+		list-style-type: none;
+		text-align: center;
+		flex: auto;
+		list-style-position: center;
+	}
+}
+
