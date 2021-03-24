@@ -228,7 +228,7 @@ const HomeComponent = {
 
 		      <form>
 		        <div>
-		          <a href="Productos.html">
+		          <a href="#/productos">
 		            <input type="button" name="boton" value="Tienda On-Line" class="body__centrarBotones"/>
 		          </a>
 		        </div>
@@ -278,7 +278,7 @@ const HomeComponent = {
 		      </div>
 
 		      <div>
-		          <a href="Productos.html">
+		          <a href="#/productos">
 		              <input type="button" name="boton" value="Ver todos los Productos" class="body__centrarBotones"/>
 		            </a>
 		      </div>
