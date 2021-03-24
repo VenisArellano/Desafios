@@ -598,7 +598,7 @@ const ProductosComponent = {
 
 				        createOrder: function(data, actions) {
 				          return actions.order.create({
-				            purchase_units: [{"description":"Producto de Prueba","amount":{"currency_code":"USD","value":2,"breakdown":{"item_total":{"currency_code":"USD","value":1},"shipping":{"currency_code":"USD","value":1},"precioTotal":{"currency_code":"USD","value":0}}}}]
+				            purchase_units: [{"description":"Producto de Prueba","amount":{"currency_code":"USD","value":2,"breakdown":{"item_total":{"currency_code":"USD","value":1},"shipping":{"currency_code":"USD","value":1},"tax_total":{"currency_code":"USD","value":0}}}}]
 				          });
 				        },
 
